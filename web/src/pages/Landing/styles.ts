@@ -94,7 +94,7 @@ export const MediaQuerys = styled.div`
       ${LogoContainer} {
         grid-area: logo;
         align-self: center;
-        text-align: center;
+        text-align: left;
         margin: 0;
 
         & > h2 {
@@ -123,7 +123,6 @@ export const MediaQuerys = styled.div`
 
       ${Description} {
         grid-area: total;
-
         justify-self: end;
       }
     }
